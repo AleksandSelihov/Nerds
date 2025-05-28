@@ -1,0 +1,44 @@
+.header__logo {
+    transition: 0.3s;
+}
+
+/* наведение */
+.header__logo:hover {
+    opacity: 50%;
+}
+
+/* нажатие */
+.header__logo:active {
+    opacity: 20%;
+}
+
+.header__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.header__link:hover {
+    color: #fb566a;
+}
+.header__link:active {
+    opacity: 30%;
+    color: #000000;
+}
+.header__list {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    background-color: #eee;
+    padding-top: 49px;
+}

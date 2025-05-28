@@ -1,0 +1,44 @@
+.intro__title {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 100%;
+    color: #000;
+}
+.intro__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #283136;
+    margin-top: 25px;
+}
+.intro__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 112%;
+    text-align: center;
+    color: #fff;
+    background-color: #fb566a;
+    text-decoration: none;
+    padding: 17px 54px 15px 54px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 38px;
+    transition: 0.3s;
+}
+
+.intro {
+    background-color: #eee;
+}
+.intro__btn:hover {
+    background-color: #e74246;
+}
+.intro__btn:active {
+    background-color: #d7373b;
+    color: #ffffff30;
+}
+.intro__wrapper {
+    background-image: url("../img/nerds-index-slide1\ 1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 78px 0px 78px;
+}
