@@ -1,0 +1,40 @@
+.about {
+    padding-top: 39px;
+    padding-bottom: 73px;
+}
+.about__title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 100%;
+    color: #000;
+    margin-bottom: 32px;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #283136;
+    margin-bottom: 40px;
+    max-width: 646px;
+}
+
+.about__subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #283136;
+    margin-bottom: 23px;
+}
+
+.about__list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #283136;
+    list-style: none;
+    display: flex; 
+    flex-direction: column;
+    gap: 30px;
+}
