@@ -34,7 +34,38 @@
     line-height: 150%;
     color: #283136;
     list-style: none;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.about__percent {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 142%;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.about__percent sup {
+    font-size: 26px;
+    line-height: 154%;
+}
+
+.about__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    color: #283136;
+}
+
+.about__advantages {
+  display: flex;
+  list-style: none;
+  gap: 22px;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
 }
