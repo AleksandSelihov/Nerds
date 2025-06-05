@@ -60,12 +60,25 @@
 }
 
 .about__advantages {
-  display: flex;
-  list-style: none;
-  gap: 22px;
+    display: flex;
+    list-style: none;
+    gap: 22px;
 }
 
 .about__wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+.about__item {
+    display: flex;
+    align-items:center;
+    gap: 10px;    
+}
+
+.about__item::before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: #fb565a;
 }
