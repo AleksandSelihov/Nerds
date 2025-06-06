@@ -1,0 +1,12 @@
+.partners {
+    padding-top: 46px;
+    padding-bottom: 44px;
+}  
+
+.partners__list {
+    list-style: none;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+
+}
