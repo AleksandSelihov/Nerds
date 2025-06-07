@@ -8,5 +8,18 @@
     display: flex;
     align-items: center;    
     justify-content: space-around;
-
 }
+
+.partners__item {
+    transition: 0.3s;
+    opacity: 20%;
+}
+
+.partners__item:hover {
+ opacity: 1;
+}
+
+.partners__item:active {
+    opacity: 20%;
+}
+
