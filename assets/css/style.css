@@ -5,3 +5,32 @@
 @import "services.css";
 @import "about.css";
 @import "partners.css";
+@import "map.css";
+
+
+/* .group {
+    width: 1000px;
+    height: 600px;
+    background-color: bisque;
+    position: relative;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+}
+
+.square-red {
+    background-color: red;
+}
+
+.square-green {
+    background-color: green;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+.square-aqua {
+    background-color: aqua;
+} */

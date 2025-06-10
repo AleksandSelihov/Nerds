@@ -1,0 +1,41 @@
+.map__block {
+    width: 319px;
+    height: 308px;
+    background-color: white;
+    position: absolute;
+    top: 1897px;
+    left: 140px;
+}
+
+.map__title {
+    text-align: center;
+    padding-top: 49px;
+    padding-bottom: 23px;
+}
+
+.map__address {
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.map__text {
+    text-align: center;
+    padding-bottom: 54px;
+    color: grey;
+    padding-right: 39px;
+    padding-left: 50px;
+}
+
+.map__link {
+    text-decoration: none;
+    color: white;
+    background-color: #fb566a;
+    text-decoration: none;
+    padding: 17px 45px 15px 44px;
+    margin-left: 50;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 32px;
+}
