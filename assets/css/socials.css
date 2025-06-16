@@ -1,0 +1,40 @@
+.socials__list {
+    display: flex;
+    gap: 9px;
+    list-style: none;
+}
+
+.socials__link {
+    background-color: #e1e1e1;
+    width: 81px;
+    height: 81px;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.socials__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    color: #444;
+}
+
+.socials__wrapper {
+    display: flex;
+    gap: 139px;
+}
+
+.socials {
+    padding-top: 75px;
+    padding-bottom: 68px;
+}
