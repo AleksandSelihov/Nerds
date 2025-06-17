@@ -12,6 +12,14 @@
     border-radius: 100%;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+.socials__link:hover {
+    background-color: #e74c3c;
+}
+
+.socials__link:active {
+    background-color: #d7373b;
 }
 
 .socials__title {
