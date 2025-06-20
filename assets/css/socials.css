@@ -22,6 +22,10 @@
     background-color: #d7373b;
 }
 
+.socials__link:active svg {
+    opacity: 30%;
+}
+
 .socials__title {
     font-weight: 700;
     font-size: 36px;
