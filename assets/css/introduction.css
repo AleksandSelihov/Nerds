@@ -1,0 +1,15 @@
+.introduction {
+    background-color: #eeeeee;
+    padding-bottom: 108px;
+    padding-top: 78px;
+}
+
+.introduction__title {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 100%;
+    color: #000;
+    text-align: center;
+}
+
+
