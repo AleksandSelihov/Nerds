@@ -51,6 +51,7 @@
                     <div class="catalog__wrapper">
                         <div class="catalog__filters filters">
                             <div class="filters__block slider">
+                                <h3 class="slider__title filters__title">Стоимость:</h3>
                                 <div class="slider__wrapper">
                                     <div class="slider__container">
                                         <div class="slider__track"></div>
@@ -71,6 +72,16 @@
                                             oninput="slideTwo()"
                                         />
                                     </div>
+                                </div>
+                                <div class="slider__cost">
+                                    <label class="slider__label">
+                                        <span class="slider__sign"> от </span>
+                                        <input type="number" class="slider__number" value="0" />
+                                    </label>
+                                    <label class="slider__label">
+                                        <span class="slider__sign"> до </span>
+                                        <input type="number" class="slider__number" value="15000" />
+                                    </label>
                                 </div>
                             </div>
                             <div class="filters__block">
@@ -269,6 +280,3 @@
         <script src="assets/js/catalog.js"></script>
     </body>
 </html>
-
-
-

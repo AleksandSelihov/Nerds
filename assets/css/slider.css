@@ -50,7 +50,7 @@ input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 20px;
     width: 20px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     cursor: pointer;
     margin-top: -9px;
     pointer-events: auto;
@@ -63,7 +63,7 @@ input[type="range"]::-moz-range-thumb {
     width: 20px;
     cursor: pointer;
     border-radius: 50%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     pointer-events: auto;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.15);
 }
@@ -73,7 +73,30 @@ input[type="range"]::-ms-thumb {
     width: 20px;
     cursor: pointer;
     border-radius: 50%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     pointer-events: auto;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.slider__number {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 3px;
+    width: 80px;
+    height: 38px;
+    background-color: #eeeeee;
+    border: none;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+
+.silder__sign {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    text-transform: uppercase;
+    color: #283136;
+    display: flex;
+    margin-left: 11px;
 }
