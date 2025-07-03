@@ -50,6 +50,29 @@
                 <div class="container">
                     <div class="catalog__wrapper">
                         <div class="catalog__filters filters">
+                            <div class="filters__block slider">
+                                <div class="slider__wrapper">
+                                    <div class="slider__container">
+                                        <div class="slider__track"></div>
+                                        <input
+                                            type="range"
+                                            min="0"
+                                            max="100"
+                                            value="30"
+                                            id="slider-1"
+                                            oninput="slideOne()"
+                                        />
+                                        <input
+                                            type="range"
+                                            min="0"
+                                            max="100"
+                                            value="70"
+                                            id="slider-2"
+                                            oninput="slideTwo()"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
                             <div class="filters__block">
                                 <h3 class="filters__title">Сетка:</h3>
                                 <ul class="filters__list">
@@ -72,6 +95,7 @@
                                                 type="radio"
                                                 name="grid"
                                                 value="Фиксированная"
+                                                checked
                                             />
                                             <span class="filters__sign">Фиксированная</span>
                                         </label>
@@ -106,7 +130,6 @@
                                                 type="checkbox"
                                                 name="features"
                                                 value="Блок преимуществ"
-                                                checked
                                             />
                                             <span class="filters__sign">Блок преимуществ</span>
                                         </label>
@@ -118,7 +141,6 @@
                                                 type="checkbox"
                                                 name="features"
                                                 value="Новости"
-                                                checked
                                             />
                                             <span class="filters__sign">Новости</span>
                                         </label>
@@ -130,7 +152,6 @@
                                                 type="checkbox"
                                                 name="features"
                                                 value="Галерея"
-                                                checked
                                             />
                                             <span class="filters__sign">Галерея</span>
                                         </label>
@@ -142,13 +163,13 @@
                                                 type="checkbox"
                                                 name="features"
                                                 value="Корзина"
-                                                checked
                                             />
                                             <span class="filters__sign">Корзина</span>
                                         </label>
                                     </li>
                                 </ul>
                             </div>
+                            <a href="#" class="filters__link">ПОКАЗАТЬ</a>
                         </div>
                     </div>
                 </div>
@@ -245,6 +266,9 @@
             <button class="modal__close">Закрыть окно</button>
         </div>
 
-        <script src="main.js"></script>
+        <script src="assets/js/catalog.js"></script>
     </body>
 </html>
+
+
+
