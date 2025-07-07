@@ -87,16 +87,40 @@ input[type="range"]::-ms-thumb {
     height: 38px;
     background-color: #eeeeee;
     border: none;
-    margin-top: 14px;
     margin-left: 11px;
-}
-
-.silder__sign {
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 137%;
     text-transform: uppercase;
     color: #283136;
+}
+
+.slider__sign {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    text-transform: uppercase;
+    color: #283136;
+}
+
+.slider__label {
     display: flex;
-    margin-left: 11px;
+    align-items: center;
+}
+
+.slider__cost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
 }
