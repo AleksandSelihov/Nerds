@@ -1,0 +1,5 @@
+.catalog__wrapper {
+    display: flex;
+    padding-top: 55px;
+    gap: 132px;
+}
