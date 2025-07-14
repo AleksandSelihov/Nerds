@@ -1,6 +1,7 @@
 .shop__navigation {
     display: flex;
     align-items: center;
+    margin-bottom: 46px;
 }
 
 .shop__list {
