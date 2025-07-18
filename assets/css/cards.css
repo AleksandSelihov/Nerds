@@ -1,5 +1,6 @@
 .cards__item {
     position: relative;
+    margin-bottom: 55px;
 }
 
 .cards__item:hover .cards__info {

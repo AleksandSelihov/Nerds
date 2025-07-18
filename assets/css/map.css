@@ -1,3 +1,7 @@
+.map {
+    margin-top: 60px;
+}
+
 .map__block {
     width: 319px;
     min-height: 308px;
